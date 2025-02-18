@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom'
 import baseUrl from '../build.ts'
 import Navbar from '../components/Navbar.tsx'
 
+
 const Dashboard:React.FC = () => {
 
   const [load,setLoad]=useState<boolean>(false)
@@ -521,3 +522,6 @@ const reset=()=>{
 }
 
 export default Dashboard
+
+
+

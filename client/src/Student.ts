@@ -1,4 +1,4 @@
-export interface Student{
+  export interface Student{
     Studentid:string,
     StudentName:string,
     StudentClass:string,
